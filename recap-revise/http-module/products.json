@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 19.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "price": 49.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Coffee Mug",
+    "price": 7.99,
+    "category": "Kitchen"
+  },
+  {
+    "id": 4,
+    "name": "Notebook",
+    "price": 3.49,
+    "category": "Stationery"
+  },
+  {
+    "id": 5,
+    "name": "Desk Lamp",
+    "price": 15.99,
+    "category": "Home"
+  },
+  {
+    "id": 6,
+    "name": "Water Bottle",
+    "price": 12.99,
+    "category": "Sports"
+  },
+  {
+    "id": 7,
+    "name": "USB Flash Drive",
+    "price": 9.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "price": 29.99,
+    "category": "Accessories"
+  },
+  {
+    "id": 9,
+    "name": "Yoga Mat",
+    "price": 21.99,
+    "category": "Sports"
+  },
+  {
+    "id": 10,
+    "name": "Ballpoint Pen",
+    "price": 1.49,
+    "category": "Stationery"
+  }
+]

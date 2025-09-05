@@ -13,7 +13,7 @@ false &&
 
 // synchronus writing
 fs.writeFileSync(
-    "./data.js",
+    "./data.txt",
     'const fruits = ["apple", "banana", "cherry"]',
     "utf-8"
 );
@@ -22,7 +22,7 @@ fs.writeFileSync(
 
 false &&
     fs.writeFile(
-        "./asyncData.js",
+        "./asyncData.txt",
         'const fruits = ["apple", "banana", "cherry"]',
         "utf-8",
         (err) => {
@@ -33,7 +33,7 @@ false &&
 
 // appending in file - Async
 false &&
-    fs.appendFile("./data.js", "\n\nconst append = true;", "utf-8", (err) => {
+    fs.appendFile("./data.txt", "\n\nconst append = true;", "utf-8", (err) => {
         if (err) console.log("Error when appending file: ", err);
         else console.log("File appended  successfully");
     });
@@ -67,5 +67,3 @@ false &&
         if (err) console.log("Error deleting: ", err);
         else console.log("Folder deleted successfully");
     });
-
-
